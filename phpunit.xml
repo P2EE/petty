@@ -1,0 +1,28 @@
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         bootstrap="vendor/autoload.php"
+         syntaxCheck="false"
+         printerFile="vendor/whatthejeff/nyancat-phpunit-resultprinter/src/NyanCat/PHPUnit/ResultPrinter.php"
+         printerClass="NyanCat\PHPunit\ResultPrinter"
+         strict="true">
+
+  <testsuites>
+    <testsuite name="UnitTests">
+      <directory>tests/unit/</directory>
+    </testsuite>
+    <testsuite name="IntegrationTests">
+      <directory>tests/integration/</directory>
+    </testsuite>
+  </testsuites>
+
+  <filter>
+    <whitelist>
+        <directory suffix=".php">src/php/</directory>
+    </whitelist>
+  </filter>
+</phpunit>

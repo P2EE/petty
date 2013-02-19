@@ -1,0 +1,6 @@
+/.abc
+/.pear
+/build
+/vendor/*
+/composer.phar
+*.local

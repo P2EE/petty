@@ -1,0 +1,25 @@
+{
+    "name": "p2ee/petty",
+    "description":  "P2EE SerPHPlet Container",
+    "keywords": ["P2EE","enterprise","serphplet"],
+    "homepage" : "http://p2ee.github.com/petty/",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "repositories": [
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "whatthejeff/nyancat-phpunit-resultprinter": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "P2EE": "src/php/"
+        }
+    },
+    "support": {
+        "irc": "irc://irc.freenode.org/petty-php"
+    }
+}
